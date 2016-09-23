@@ -97,3 +97,4 @@
 - [Справочник по HTML﻿](http://htmlbook.ru/html)
 - [HTML5﻿](http://htmlbook.ru/html5)
 - [Это — грёбаный сайт.](https://fuckingwebsite.ru)
+- [Markup Validation Service](https://validator.w3.org)
