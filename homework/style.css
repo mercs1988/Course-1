@@ -1,0 +1,30 @@
+.header {
+  width: 1920px;
+  height: 200px;
+  background: #232323;
+  }
+.number {
+  float: left;
+  margin-top: 4px;
+  color: #7f7f7f;
+}
+.reg {
+    float: right;
+   margin-top: 4px;
+    margin-right: 20px;
+   color: #666666;
+}
+.a {
++ text-decoration: none;
++ color: grey;
+.b {
+  text-decoration: none;
+  color: #af8767;
+}
+.logo {
+ width: 170 px;
+ height: 50 px;
+ padding-left: 375 px;
+ position: relative;
+}
+
