@@ -1,0 +1,53 @@
+body{
+  width: 1000px;
+  font-family: Arial;
+  font-size: 14px;
+  line-height: 1.28em;
+  counter-reset: pages;
+  }
+div {
+  width: 1000px;
+  height: 444px;
+  background-color: #555555;
+}
+li{
+  width: 920px;
+  height: 74px;
+  background-color: #ffffff;
+  list-style: none;
+}
+li:nth-child(odd){
+  background-color: #cccccc;
+}
+
+p{
+  padding: 12px;
+  padding-left: 0px;
+  margin-top: 0px;
+}
+span{
+  width: 50px;
+  height: 74px;
+  padding-top: 25px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 20px;
+  float: left;
+  box-sizing: border-box;
+  font-size: 24px;
+  color: #ffffff;
+  margin-right: 3px;
+  background-color: #ff5353;
+
+  counter-increment:pages;
+}
+span::before{
+  content: counter(pages)
+}
+.backcolour1{
+  background-color: #cc4242;
+}
+
+
+
+
